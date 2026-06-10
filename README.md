@@ -49,26 +49,24 @@ Install dependencies
 
 ```bash
 npm install
-cd ios
-pod install
-cd ..
 ```
 
-Start the app
+Run on iOS (first time builds the native app)
 
 ```bash
-npm start
+npx expo run:ios
 ```
 
-Run on iOS
+Run on Android (first time builds the native app)
+
+```bash
+npx expo run:android
+```
+
+After the first build you can use
 
 ```bash
 npm run ios
-```
-
-Run on Android
-
-```bash
 npm run android
 ```
 
