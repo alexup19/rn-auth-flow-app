@@ -1,0 +1,37 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "types": ["jest"],
+    "paths": {
+      "api/*": ["./src/api/*"],
+      "api": ["./src/api/index"],
+      "atoms/*": ["./src/components/atoms/*"],
+      "atoms": ["./src/components/atoms/index"],
+      "molecules/*": ["./src/components/molecules/*"],
+      "molecules": ["./src/components/molecules/index"],
+      "icons/*": ["./src/components/icons/*"],
+      "icons": ["./src/components/icons/index"],
+      "utils/*": ["./src/utils/*"],
+      "utils": ["./src/utils/index"],
+      "theme/*": ["./src/theme/*"],
+      "navigation/*": ["./src/navigation/*"],
+      "store/*": ["./src/store/*"],
+      "store": ["./src/store/index"],
+      "screens/*": ["./src/screens/*"],
+      "screens": ["./src/screens/index"],
+      "hooks/*": ["./src/hooks/*"],
+      "hooks": ["./src/hooks/index"],
+      "types/*": ["./src/types/*"],
+      "types": ["./src/types/index"],
+      "@constants/*": ["./src/constants/*"],
+      "@constants": ["./src/constants/index"],
+      "config/*": ["./src/config/*"],
+      "config": ["./src/config/index"],
+      "components": ["./src/components/index"],
+      "components/*": ["./src/components/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", "nativewind-env.d.ts"],
+  "exclude": ["**/node_modules", "**/Pods"]
+}
