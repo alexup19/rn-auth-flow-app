@@ -11,6 +11,7 @@ A mobile onboarding authentication sample app for iOS and Android powered by Rea
 - Expo Router
 - Expo Secure Store
 - Haptic Feedback
+- NativeWind (Tailwind CSS for React Native)
 - React Query
 - TypeScript
 - Unit Tests
@@ -36,13 +37,13 @@ All demo accounts use `password` as the password.
 Clone the project
 
 ```bash
-git clone https://github.com/alexup19/rn-auth-flow-app.git
+git clone https://github.com/alexup19/auth-flow-app.git
 ```
 
 Go to the project directory
 
 ```bash
-cd rn-auth-flow-app
+cd auth-flow-app
 ```
 
 Install dependencies
@@ -96,6 +97,7 @@ npm test
 | `expo-haptics` | Tactile feedback on login outcomes |
 | `expo-local-authentication` | Biometric unlock on app resume |
 | `expo-document-picker` | Identity document upload in onboarding flow |
+| `nativewind` + `tailwindcss` | Tailwind CSS utility classes for React Native styling |
 | `reactotron-react-native` | Development state and network inspector |
 | `reactotron-redux` | Redux DevTools integration for Zustand state visualization |
 
