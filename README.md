@@ -36,13 +36,13 @@ All demo accounts use `password` as the password.
 Clone the project
 
 ```bash
-git clone https://github.com/alexup19/auth-flow-app.git
+git clone https://github.com/alexup19/rn-auth-flow-app.git
 ```
 
 Go to the project directory
 
 ```bash
-cd auth-flow-app
+cd rn-auth-flow-app
 ```
 
 Install dependencies
